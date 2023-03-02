@@ -124,7 +124,70 @@ main > section > article{
     font-size: 30px;
 }
 
+/* ABOUT */
+.about{
+    row-gap: 3vh;
+    width: 90%;
+}
 
+.about > article{
+    width: 90%;
+    row-gap: 3vh;
+}
+
+.about > section aside,
+.about > section > article{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.about > section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.about ul{
+    width: 100%;
+    list-style-type: none;
+}
+
+.skills li{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.skills > li aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about h6{
+    display: flex;
+    height: 5px;
+    background-color: gray;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.about span{
+    height: 100%;
+    width: 100%;
+    background-color: darkorange;
+    border-radius: 20px;
+}
+
+.about li:nth-child(3) span{
+    width: 80%;
+}
+
+.about li:nth-child(4) span{
+    width: 90%;
+}
 
 /* PORTFOLIO */
 .portfolio{
