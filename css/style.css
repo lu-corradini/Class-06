@@ -126,4 +126,32 @@ main > section > article{
     font-size: 30px;
 }
 
+/* FOOTER  */
+footer{
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    row-gap: 2vh;
+    background-color: black;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 5vw;
+}
+
+footer [class*="fa"]{
+    width: 5vh;
+    height: 5vh;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: whitesmoke;
+}
 }
