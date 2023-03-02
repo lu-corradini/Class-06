@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-ul{
+ul, h3, h2,h4, figure, address, p{
     margin: 0;
     padding: 0;
 }
@@ -19,8 +19,6 @@ img{
 a{
     text-decoration: none;
 }
-
-
 
 main article > h3{
     color: dimgray;
@@ -126,6 +124,104 @@ main > section > article{
     font-size: 30px;
 }
 
+/* CONTACT */
+.contact{
+    background-color: rgb(50, 50, 50);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    row-gap: 10vh;
+}
+
+.contact aside{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.contact > article{
+    row-gap: 2vh;
+}
+
+.contact h3{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.contact p{
+    color: whitesmoke;
+}
+
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.contact i{
+    color: darkorange;
+}
+
+.contact li{
+    display: flex;
+    column-gap: 3vw;
+    align-items: center;
+}
+
+address{
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.contact > section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+}
+
+.contact a{
+    color: darkorange;
+    text-decoration: none;
+}
+
+.contact li:first-child a{
+    color: whitesmoke;
+}
+
+form > section,
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+input, textarea{
+    background-color: transparent;
+    padding: 5%;
+    border: 1px solid gray;
+}
+
+.contact > section > article{
+    width: 100%;
+}
+
+[type="submit"]{
+    width: 70%;
+    color: whitesmoke;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+::placeholder{
+    color: whitesmoke;
+}
+
+.contact h4{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 /* FOOTER  */
 footer{
     align-items: center;
@@ -133,6 +229,7 @@ footer{
     padding-bottom: 5%;
     row-gap: 2vh;
     background-color: black;
+    border-top: 1px solid gray;
 }
 
 footer ul{
