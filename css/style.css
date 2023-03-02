@@ -73,6 +73,57 @@ header > section{
 @media(min-width:200px){
 
 
+/* NAV */
+nav > ul{
+    display: none;
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    width: 90%;
+    position: relative;
+}
+
+nav > h2{
+    color: dimgray;
+    font-size: 34px;
+}
+
+summary{
+    font-size: 26px;
+    color: darkorange;
+}
+
+details{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+}
+
+details > ul{
+    padding-top: 2vh;
+    width: 100%;
+    position: absolute;
+    /* border: 4px solid darkorange; */
+    list-style-type: none;
+}
+
+details li{
+    display: flex;
+    background-color: whitesmoke;
+}
+
+details a{
+    padding: 5%;
+    width: 100%;
+    color: darkorange;
+    font-size: 20px;
+    border-bottom: 4px solid darkorange;
+}
 
 main > section > section,
 main > section > article{
